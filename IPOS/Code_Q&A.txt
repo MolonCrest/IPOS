@@ -1,0 +1,19 @@
+How are products stored in your program?
+
+Products are stored in a dictionary. The key is the product ID, and the value is the Product object for that item. I used this setup because it makes exact ID searches simple, since the program can use the product ID instead of looping through every product every time. Each Product object stores the product name, category, quantity, reorder information, unit price, vendor ID, and whether the product is active.
+
+How are purchase orders connected to vendors and products?
+
+Each purchase order stores the vendor ID for the vendor it is being ordered from. The purchase order also stores a list of items, and each item has a product ID, quantity, and unit price. This connects the purchase order back to the product dictionary without copying the entire Product object into the PO. It also keeps the JSON file cleaner because it mainly stores IDs and basic line item information.
+
+How does receiving a shipment change inventory?
+
+When a shipment is received, the program first checks that the purchase order exists. It also checks that the order has not already been received, because receiving the same order twice would mess up the stock counts. If the order is valid, the program loops through the items on the order and adds each quantity to the matching product's inventory. After that, the PO status is changed to Received and the transaction log gets updated.
+
+How does your JSON save/load process work?
+
+The save process turns the Product, Vendor, and PurchaseOrder objects into dictionaries using their `to_dict()` methods. Then the program saves those dictionaries, along with the transaction log, into a JSON file using `json.dump()`. When the program loads, it reads the JSON with `json.load()` and rebuilds the objects using the `from_dict()` methods. The program tries the main data file first, and if that does not load correctly it can fall back to the sample data file.
+
+What is one bug you fixed and how did you fix it?
+
+One bug I had to fix was the duplicate receiving problem. If a purchase order could be received more than once, the product quantities would keep increasing even though only one shipment was supposed to arrive. I fixed it by checking the PO status before adding anything to inventory. If the status is already Received, the function stops and prints a warning instead of changing the stock levels.

@@ -1,0 +1,583 @@
+{
+    "business_name": "Prairie Tech and Maker Supply",
+    "products": [
+        {
+            "product_id": "P1001",
+            "name": "PLA Filament Black 1kg",
+            "category": "3D Printing",
+            "quantity": 18,
+            "reorder_level": 8,
+            "reorder_quantity": 20,
+            "unit_price": 18.99,
+            "vendor_id": "V001",
+            "active": true
+        },
+        {
+            "product_id": "P1002",
+            "name": "PLA Filament White 1kg",
+            "category": "3D Printing",
+            "quantity": 6,
+            "reorder_level": 8,
+            "reorder_quantity": 20,
+            "unit_price": 18.99,
+            "vendor_id": "V001",
+            "active": true
+        },
+        {
+            "product_id": "P1003",
+            "name": "PETG Transparent Filament 1kg",
+            "category": "3D Printing",
+            "quantity": 4,
+            "reorder_level": 7,
+            "reorder_quantity": 16,
+            "unit_price": 23.5,
+            "vendor_id": "V001",
+            "active": true
+        },
+        {
+            "product_id": "P1004",
+            "name": "Standard Gray Resin 1L",
+            "category": "3D Printing",
+            "quantity": 9,
+            "reorder_level": 5,
+            "reorder_quantity": 10,
+            "unit_price": 29.95,
+            "vendor_id": "V001",
+            "active": true
+        },
+        {
+            "product_id": "P1005",
+            "name": "Build Plate Adhesive Stick",
+            "category": "3D Printing",
+            "quantity": 12,
+            "reorder_level": 6,
+            "reorder_quantity": 12,
+            "unit_price": 6.49,
+            "vendor_id": "V001",
+            "active": true
+        },
+        {
+            "product_id": "P2001",
+            "name": "500GB SATA SSD",
+            "category": "Computer Parts",
+            "quantity": 10,
+            "reorder_level": 5,
+            "reorder_quantity": 10,
+            "unit_price": 34.99,
+            "vendor_id": "V002",
+            "active": true
+        },
+        {
+            "product_id": "P2002",
+            "name": "1TB NVMe SSD",
+            "category": "Computer Parts",
+            "quantity": 3,
+            "reorder_level": 5,
+            "reorder_quantity": 10,
+            "unit_price": 59.99,
+            "vendor_id": "V002",
+            "active": true
+        },
+        {
+            "product_id": "P2003",
+            "name": "16GB DDR4 RAM Kit",
+            "category": "Computer Parts",
+            "quantity": 7,
+            "reorder_level": 6,
+            "reorder_quantity": 10,
+            "unit_price": 42.75,
+            "vendor_id": "V002",
+            "active": true
+        },
+        {
+            "product_id": "P2004",
+            "name": "USB-C Laptop Charger 65W",
+            "category": "Computer Parts",
+            "quantity": 15,
+            "reorder_level": 8,
+            "reorder_quantity": 12,
+            "unit_price": 24.99,
+            "vendor_id": "V002",
+            "active": true
+        },
+        {
+            "product_id": "P2005",
+            "name": "Wireless Mouse",
+            "category": "Computer Parts",
+            "quantity": 22,
+            "reorder_level": 10,
+            "reorder_quantity": 20,
+            "unit_price": 12.49,
+            "vendor_id": "V002",
+            "active": true
+        },
+        {
+            "product_id": "P3001",
+            "name": "Cat6 Patch Cable 6ft",
+            "category": "Networking",
+            "quantity": 40,
+            "reorder_level": 20,
+            "reorder_quantity": 50,
+            "unit_price": 3.99,
+            "vendor_id": "V003",
+            "active": true
+        },
+        {
+            "product_id": "P3002",
+            "name": "24-Port Gigabit Switch",
+            "category": "Networking",
+            "quantity": 2,
+            "reorder_level": 3,
+            "reorder_quantity": 4,
+            "unit_price": 129.99,
+            "vendor_id": "V003",
+            "active": true
+        },
+        {
+            "product_id": "P3003",
+            "name": "WiFi 6 Access Point",
+            "category": "Networking",
+            "quantity": 4,
+            "reorder_level": 4,
+            "reorder_quantity": 6,
+            "unit_price": 89.5,
+            "vendor_id": "V003",
+            "active": true
+        },
+        {
+            "product_id": "P3004",
+            "name": "Keystone Jack Pack",
+            "category": "Networking",
+            "quantity": 18,
+            "reorder_level": 10,
+            "reorder_quantity": 20,
+            "unit_price": 14.75,
+            "vendor_id": "V003",
+            "active": true
+        },
+        {
+            "product_id": "P3005",
+            "name": "Network Cable Tester",
+            "category": "Networking",
+            "quantity": 3,
+            "reorder_level": 4,
+            "reorder_quantity": 6,
+            "unit_price": 27.99,
+            "vendor_id": "V003",
+            "active": true
+        },
+        {
+            "product_id": "P4001",
+            "name": "Classroom HDMI Cable 10ft",
+            "category": "Classroom Electronics",
+            "quantity": 20,
+            "reorder_level": 10,
+            "reorder_quantity": 20,
+            "unit_price": 8.99,
+            "vendor_id": "V004",
+            "active": true
+        },
+        {
+            "product_id": "P4002",
+            "name": "USB Document Camera",
+            "category": "Classroom Electronics",
+            "quantity": 2,
+            "reorder_level": 3,
+            "reorder_quantity": 5,
+            "unit_price": 74.99,
+            "vendor_id": "V004",
+            "active": true
+        },
+        {
+            "product_id": "P4003",
+            "name": "USB Classroom Headset",
+            "category": "Classroom Electronics",
+            "quantity": 14,
+            "reorder_level": 10,
+            "reorder_quantity": 25,
+            "unit_price": 19.25,
+            "vendor_id": "V004",
+            "active": true
+        },
+        {
+            "product_id": "P4004",
+            "name": "Presentation Clicker",
+            "category": "Classroom Electronics",
+            "quantity": 5,
+            "reorder_level": 4,
+            "reorder_quantity": 8,
+            "unit_price": 21.49,
+            "vendor_id": "V004",
+            "active": true
+        },
+        {
+            "product_id": "P4005",
+            "name": "1080p Webcam",
+            "category": "Classroom Electronics",
+            "quantity": 9,
+            "reorder_level": 6,
+            "reorder_quantity": 10,
+            "unit_price": 32.99,
+            "vendor_id": "V004",
+            "active": true
+        },
+        {
+            "product_id": "P5001",
+            "name": "Printer Paper Case",
+            "category": "Office Supplies",
+            "quantity": 7,
+            "reorder_level": 8,
+            "reorder_quantity": 15,
+            "unit_price": 39.99,
+            "vendor_id": "V005",
+            "active": true
+        },
+        {
+            "product_id": "P5002",
+            "name": "Black Toner Cartridge",
+            "category": "Office Supplies",
+            "quantity": 5,
+            "reorder_level": 4,
+            "reorder_quantity": 8,
+            "unit_price": 58.75,
+            "vendor_id": "V005",
+            "active": true
+        },
+        {
+            "product_id": "P5003",
+            "name": "Dry Erase Marker Pack",
+            "category": "Office Supplies",
+            "quantity": 11,
+            "reorder_level": 8,
+            "reorder_quantity": 12,
+            "unit_price": 9.99,
+            "vendor_id": "V005",
+            "active": true
+        },
+        {
+            "product_id": "P5004",
+            "name": "Label Maker Tape",
+            "category": "Office Supplies",
+            "quantity": 3,
+            "reorder_level": 6,
+            "reorder_quantity": 10,
+            "unit_price": 7.5,
+            "vendor_id": "V005",
+            "active": true
+        },
+        {
+            "product_id": "P5005",
+            "name": "Binder Clip Box",
+            "category": "Office Supplies",
+            "quantity": 25,
+            "reorder_level": 12,
+            "reorder_quantity": 20,
+            "unit_price": 4.99,
+            "vendor_id": "V005",
+            "active": true
+        },
+        {
+            "product_id": "P6001",
+            "name": "Precision Screwdriver Set",
+            "category": "Repair Tools",
+            "quantity": 8,
+            "reorder_level": 5,
+            "reorder_quantity": 10,
+            "unit_price": 16.99,
+            "vendor_id": "V006",
+            "active": true
+        },
+        {
+            "product_id": "P6002",
+            "name": "ESD Wrist Strap",
+            "category": "Repair Tools",
+            "quantity": 15,
+            "reorder_level": 8,
+            "reorder_quantity": 20,
+            "unit_price": 5.99,
+            "vendor_id": "V006",
+            "active": true
+        },
+        {
+            "product_id": "P6003",
+            "name": "Thermal Paste Tube",
+            "category": "Repair Tools",
+            "quantity": 6,
+            "reorder_level": 6,
+            "reorder_quantity": 12,
+            "unit_price": 7.99,
+            "vendor_id": "V006",
+            "active": true
+        },
+        {
+            "product_id": "P6004",
+            "name": "Laptop Pry Tool Kit",
+            "category": "Repair Tools",
+            "quantity": 4,
+            "reorder_level": 5,
+            "reorder_quantity": 8,
+            "unit_price": 11.49,
+            "vendor_id": "V006",
+            "active": true
+        },
+        {
+            "product_id": "P6005",
+            "name": "Compressed Air Duster",
+            "category": "Repair Tools",
+            "quantity": 13,
+            "reorder_level": 7,
+            "reorder_quantity": 15,
+            "unit_price": 8.49,
+            "vendor_id": "V006",
+            "active": true
+        }
+    ],
+    "vendors": [
+        {
+            "vendor_id": "V001",
+            "name": "PrintForge Wholesale",
+            "contact_name": "Maya Benton",
+            "phone": "217-555-0134",
+            "email": "orders@printforgewholesale.com",
+            "address": "Champaign, IL"
+        },
+        {
+            "vendor_id": "V002",
+            "name": "Midwest Computer Components",
+            "contact_name": "Trevor Lang",
+            "phone": "217-555-0188",
+            "email": "sales@midwestcomponents.com",
+            "address": "Decatur, IL"
+        },
+        {
+            "vendor_id": "V003",
+            "name": "NetBridge Distribution",
+            "contact_name": "Samantha Chu",
+            "phone": "312-555-0199",
+            "email": "support@netbridgedist.com",
+            "address": "Chicago, IL"
+        },
+        {
+            "vendor_id": "V004",
+            "name": "EduTech Classroom Supply",
+            "contact_name": "Jonah Reed",
+            "phone": "314-555-0120",
+            "email": "orders@edutechclassroom.com",
+            "address": "St. Louis, MO"
+        },
+        {
+            "vendor_id": "V005",
+            "name": "Prairie Office Goods",
+            "contact_name": "Olivia Grant",
+            "phone": "217-555-0106",
+            "email": "service@prairieofficegoods.com",
+            "address": "Mattoon, IL"
+        },
+        {
+            "vendor_id": "V006",
+            "name": "ToolBench Repair Supply",
+            "contact_name": "Caleb Ortiz",
+            "phone": "317-555-0175",
+            "email": "parts@toolbenchrepair.com",
+            "address": "Indianapolis, IN"
+        }
+    ],
+    "purchase_orders": [
+        {
+            "po_number": "PO-1001",
+            "vendor_id": "V001",
+            "date_created": "2026-04-12",
+            "items_ordered": [
+                {
+                    "product_id": "P1002",
+                    "quantity": 20,
+                    "unit_price": 18.99
+                },
+                {
+                    "product_id": "P1003",
+                    "quantity": 12,
+                    "unit_price": 23.5
+                }
+            ],
+            "status": "Open",
+            "total_cost": 661.8
+        },
+        {
+            "po_number": "PO-1002",
+            "vendor_id": "V002",
+            "date_created": "2026-04-14",
+            "items_ordered": [
+                {
+                    "product_id": "P2002",
+                    "quantity": 10,
+                    "unit_price": 59.99
+                },
+                {
+                    "product_id": "P2003",
+                    "quantity": 8,
+                    "unit_price": 42.75
+                }
+            ],
+            "status": "Received",
+            "total_cost": 941.9
+        },
+        {
+            "po_number": "PO-1003",
+            "vendor_id": "V003",
+            "date_created": "2026-04-18",
+            "items_ordered": [
+                {
+                    "product_id": "P3002",
+                    "quantity": 4,
+                    "unit_price": 129.99
+                },
+                {
+                    "product_id": "P3005",
+                    "quantity": 5,
+                    "unit_price": 27.99
+                }
+            ],
+            "status": "Open",
+            "total_cost": 659.91
+        },
+        {
+            "po_number": "PO-1004",
+            "vendor_id": "V004",
+            "date_created": "2026-04-22",
+            "items_ordered": [
+                {
+                    "product_id": "P4002",
+                    "quantity": 3,
+                    "unit_price": 74.99
+                },
+                {
+                    "product_id": "P4005",
+                    "quantity": 10,
+                    "unit_price": 32.99
+                }
+            ],
+            "status": "Open",
+            "total_cost": 554.87
+        },
+        {
+            "po_number": "PO-1005",
+            "vendor_id": "V005",
+            "date_created": "2026-04-24",
+            "items_ordered": [
+                {
+                    "product_id": "P5001",
+                    "quantity": 10,
+                    "unit_price": 39.99
+                },
+                {
+                    "product_id": "P5004",
+                    "quantity": 6,
+                    "unit_price": 7.5
+                }
+            ],
+            "status": "Received",
+            "total_cost": 444.9
+        },
+        {
+            "po_number": "PO-1006",
+            "vendor_id": "V006",
+            "date_created": "2026-04-27",
+            "items_ordered": [
+                {
+                    "product_id": "P6004",
+                    "quantity": 8,
+                    "unit_price": 11.49
+                },
+                {
+                    "product_id": "P6003",
+                    "quantity": 10,
+                    "unit_price": 7.99
+                }
+            ],
+            "status": "Open",
+            "total_cost": 171.82
+        },
+        {
+            "po_number": "PO-1007",
+            "vendor_id": "V001",
+            "date_created": "2026-05-01",
+            "items_ordered": [
+                {
+                    "product_id": "P1001",
+                    "quantity": 15,
+                    "unit_price": 18.99
+                },
+                {
+                    "product_id": "P1005",
+                    "quantity": 10,
+                    "unit_price": 6.49
+                }
+            ],
+            "status": "Received",
+            "total_cost": 349.75
+        },
+        {
+            "po_number": "PO-1008",
+            "vendor_id": "V003",
+            "date_created": "2026-05-05",
+            "items_ordered": [
+                {
+                    "product_id": "P3003",
+                    "quantity": 5,
+                    "unit_price": 89.5
+                },
+                {
+                    "product_id": "P3001",
+                    "quantity": 25,
+                    "unit_price": 3.99
+                }
+            ],
+            "status": "Open",
+            "total_cost": 547.25
+        }
+    ],
+    "transaction_log": [
+        {
+            "date": "2026-04-14",
+            "product_id": "P2002",
+            "action": "Shipment Received",
+            "quantity": 10,
+            "notes": "Received through PO-1002"
+        },
+        {
+            "date": "2026-04-14",
+            "product_id": "P2003",
+            "action": "Shipment Received",
+            "quantity": 8,
+            "notes": "Received through PO-1002"
+        },
+        {
+            "date": "2026-04-24",
+            "product_id": "P5001",
+            "action": "Shipment Received",
+            "quantity": 10,
+            "notes": "Received through PO-1005"
+        },
+        {
+            "date": "2026-04-24",
+            "product_id": "P5004",
+            "action": "Shipment Received",
+            "quantity": 6,
+            "notes": "Received through PO-1005"
+        },
+        {
+            "date": "2026-05-01",
+            "product_id": "P1001",
+            "action": "Shipment Received",
+            "quantity": 15,
+            "notes": "Received through PO-1007"
+        },
+        {
+            "date": "2026-05-01",
+            "product_id": "P1005",
+            "action": "Shipment Received",
+            "quantity": 10,
+            "notes": "Received through PO-1007"
+        }
+    ]
+}
