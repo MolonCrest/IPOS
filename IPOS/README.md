@@ -5,8 +5,6 @@
 
 ## Project Description
 
-This project is a console-based Inventory and Purchase Order System made in Python. The business I used for the sample data is **Prairie Tech and Maker Supply**, which is basically a small local supply shop that sells 3D printing materials, basic IT parts, classroom electronics, networking equipment, office supplies, and repair tools.
-
 The program is meant to act like a simple inventory workflow for that business. It lets the user keep track of products and vendors, create purchase orders, receive shipments, update stock counts, search and sort data, run reports, and save/load everything with JSON files. I split the program into several files so `main.py` is not doing every single thing, and so each file has a more specific purpose.
 
 ## Features
@@ -53,7 +51,7 @@ The main save file is `inventory_data.json`. The original sample data stays in `
 
 ## Dataset
 
-The project uses an original business scenario called Prairie Tech and Maker Supply. The sample data includes:
+Sample data includes:
 
 - 30 products
 - 6 vendors
@@ -83,4 +81,4 @@ I added this because an inventory program should have at least some record of wh
 - Open purchase orders report
 - Transaction log report
 
-These reports print directly in the console so they are easy to test during the walkthrough.
+These reports print directly in the console so they are easy to test.
