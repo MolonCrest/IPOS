@@ -1,7 +1,7 @@
 # Inventory and Purchase Order System
 
 **Name:** Jackson Hinks  
-**Course Section:** [Add course section before submitting]
+**Course Section:** - Python 54197
 
 ## Project Description
 
@@ -42,23 +42,6 @@ The program is meant to act like a simple inventory workflow for that business. 
 - `backup_inventory_data.json` - Extra JSON backup file created after testing.
 - `reflection.md` - Reflection for the project.
 - `code_explanation.txt` - Short written code defense answers.
-
-## How to Run the Program
-
-1. Make sure Python is installed.
-2. Download or clone the project folder.
-3. Open a terminal or command prompt inside the project folder.
-4. Run the program with this command:
-
-```bash
-python main.py
-```
-
-On some computers, the command may be:
-
-```bash
-python3 main.py
-```
 
 The program first tries to load `inventory_data.json`. If that file is missing or empty, it tries `sample_data.json` so the project still has data to work with when it is first tested.
 
@@ -101,7 +84,3 @@ I added this because an inventory program should have at least some record of wh
 - Transaction log report
 
 These reports print directly in the console so they are easy to test during the walkthrough.
-
-## Notes
-
-The code is meant to be readable and explainable. The main storage is done with dictionaries, so product IDs, vendor IDs, and purchase order numbers can be used as keys. I also left a couple commented-out testing sections in the files. Those sections do not run, but they show a couple checks I used while making sure the JSON loading and transaction log were working.
